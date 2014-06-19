@@ -1,4 +1,4 @@
-/* Defaults */
+/* ---------   Defaults -------   Framework ------  */
 body {
 	font-family: Helvetica;
 	margin: 10px;
@@ -9,7 +9,11 @@ h1, h2, h3, h4, p {
 }
 
 
+/*  ---    main  stuff   ----    */
 
+
+
+/* header block  */
 
 
 .background{
@@ -36,3 +40,9 @@ h1, h2, h3, h4, p {
 	text-align: bottom;
 } /* its not working */
 
+
+
+/*Side Box*/
+
+
+/*Section 1*/
