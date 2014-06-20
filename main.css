@@ -1,13 +1,26 @@
-/* ---------   Defaults -------   Framework ------  */
+ /*---------   Defaults -------   Framework ------  */
 body {
-	font-family: Helvetica;
+	font-family: helvetica;
 	margin: 10px;
 }
 
 h1, h2, h3, h4, p {
-	margin-top: 0;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
+h1{
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+h2{
+	padding-top: 50px;
+}
+p, ol{
+	margin: 40px;
+	font-size: 15px;
+}
 
 /*  ---    main  stuff   ----    */
 
@@ -17,10 +30,12 @@ h1, h2, h3, h4, p {
 
 
 .container{
-	/*width: 50%;
-	height: 100%;*/
-	background-color: white;
-	width: 70%;
+	/*width: 500px;*/
+	height: 100%;
+	background-color: #EBE8E8;
+	width: 45%;
+	margin-left: 200px;
+	display: inline-block;
 	/*text-align: center;*/
 
 }
@@ -29,7 +44,7 @@ h1, h2, h3, h4, p {
 	display: table;
 	background-color: #1BC21E;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	color: white;
 	/*border-bottom: darkgreen;*/
 	/*border-width: 10px;*/
@@ -47,12 +62,15 @@ h1, h2, h3, h4, p {
 	background-color: darkgreen;
 }
 
+/*  Links Bar */
+
+
 .links{
 	width: 100%;
 	height: 35px;
 	text-align: right;
 	padding-top: 15px;
-	background-color: #1F2420;
+	background-color: #003333;
 }
 
 .links a{
@@ -63,7 +81,7 @@ h1, h2, h3, h4, p {
 
 .linkline{
 	height: 5px;
-	background-color: black;
+	background-color: #003300;
 }
 
 /*Side Box*/
@@ -71,11 +89,218 @@ h1, h2, h3, h4, p {
 	float: right;
 	background-color: white;
 	display: block;
+	width: 175px;
+	margin-right: 360px;
+	margin-top: 260px;
+	font-size: 12px;
+	text-align: left;
 }
+
+.sidebox ul li{
+	color: gray;
+	padding-top: 5px;
+	display: block;
+}
+.sidebox ul th strong{
+	/*text-align: left;*/
+	}
+
+
 .sidebottom{
 	height: 5px;
-	background-color: gray;
+	background-color: darkslategray;
+}
+
+/*   -------     Table     -----  */
+
+.buttontable{
+	margin: 50px;
+}
+
+.rows td {
+	border:  solid gray 1px;
+	font-size: 13px;
+	padding: 5px;
+	/*margin: 5px;*/
+}
+
+.rows td button{
+	color: white;
+	background-color: skyblue;
+	border-style: none;
+}
+
+.rows th {
+	border:  solid gray 1px;
+	background-color: lightgrey;
+	text-align: left;
+	/*margin-left: 5px;*/
+
+	/*padding: 5px;*/
 }
 
 
-/*Section 1*/
+/*  ---   box element   ---  */
+
+.boxelement{
+	width: 400px;
+	height: 90px;
+	background-color: lightgrey;
+	padding-left: 50px;
+	margin-left: 65px;
+	font-size: 15px;
+}
+
+.element{
+	padding-top: 30px;
+	padding-right: 60px;
+}
+
+
+/*  ---   box element   ---  */
+
+.placeimage{
+	margin-left: 65px;
+}
+
+/*  ---   list P's  ---  */
+
+.listitems li{
+	padding-bottom: 20px;
+}
+
+.subtext{
+	color: 	#B2B2B2;
+
+}
+
+
+
+/* text boxes*/
+
+.textentry{
+	text-align: right;
+	padding-right: 40px;
+
+
+}
+
+.textentry div{
+	padding-bottom: 10px;
+/*		width: 312px;
+	margin-right: -115px;*/
+	/*padding-top: 30px;*/
+}
+
+.textentry div input{
+width: 350px;
+
+}
+.textentry .email{
+padding-top: 30px;
+}
+
+.graybar p {
+	color: #B2B2B2;
+	/*padding: 0;*/
+	margin-bottom: 0px;
+	/*display: inline-block;*/
+
+}
+
+.graybar{
+	border-bottom: solid gray 1px;
+	/*z-index: 10px;*/
+
+}
+
+.largecomment{
+	margin-top: 50px;
+
+}
+
+.largecomment input{
+	width: 530px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+.submit{
+	width: 530px;
+	height: 40px;
+	color: white;
+	background: red;
+	text-align: center;
+	margin-left: 20px;
+	border-style: none;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 14px;
+
+}
+
+/* comment stream*/
+
+.align{
+	display: inline-block;
+}
+
+.imagealign{
+	float: left;
+	margin-left: 40px;
+}
+
+.small{
+	margin-left: 65px;
+	
+}
+
+.large time, .small time{
+	color: #B2B2B2;
+	font-size: 12px;
+	display: block;
+}
+
+.small time{
+	margin-left: 60px;
+	margin-top: 9px;
+}
+
+.large time{
+	margin-left: 100px;
+	margin-top: 9px;
+}
+
+.textalign strong{
+	margin-left: 10px;
+}
+
+.small p{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.large p{
+	margin-top: 20px;
+}
+
+.textline{
+	border-left-color: solid gray 1px;
+}
+
+
+
+/*.imagealign, .textalign{
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.imagealign img{
+	float: auto;
+}
+.large, .small {
+	vertical-align: top;
+}*/
+
+

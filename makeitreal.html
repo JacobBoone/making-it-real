@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body bgcolor="#E6E6FA">
+<body bgcolor="gray">
 
 	<!-- LIST BOX to side of main page -->
 	<div class="sidebox">
@@ -52,19 +52,18 @@
 
 			<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco <font color="orange"> laboris nisi ut aliquip ex</font> ea commodo
-			consequat. <i>Duis aute irure dolor in</i> reprehenderit in voluptate velit esse.</p>
+			quis nostrud exercitation ullamco <font color="orange"> laboris nisi ut aliquip ex</font> ea commodo. <i>Duis aute irure dolor in</i> reprehenderit in voluptate velit esse.</p>
 	</div>
 	<div>
 	
-		<h3>Section Title</h3>
+		<div class="graybar"><h4>Section Title</h4></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
 
 			<!-- Insert what where ehow table stuff -->
-				<table>
+				<table class="buttontable">
 						<thead>	
 							<tr class="rows">
 								<th>What</th>
@@ -76,7 +75,7 @@
 							<tr class="rows">
 								<td>HTML</td>
 								<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</td>
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla.</td>
 								<td><button>Go!</button></td>
 							</tr>
 							<tr class="rows">
@@ -87,7 +86,7 @@
 							</tr>
 							<tr class="rows">
 								<td>JS</td>
-								<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+								<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit,  consectetur adipisicing elit, sed do eiusmod.</td>
 								<td><button>View!</button></td>
 							</tr>
 						</tbody>	
@@ -101,13 +100,18 @@
 			onsequat.</p>
 	</div>
 	<div>
-			<h3>Section Tile</h3>
+			<div class="graybar"><h4>Section Title</h4></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
-		
-			<div>$('#myElement').click(function(){console.log('Clicked!')});</div>
+			
+			<div class="boxelement">
+			<div class="element">$('#myElement').click(function(){
+			console.log('Clicked!')                         
+			  
+			  });</div>
+			</div>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -121,15 +125,15 @@
 
 	</div>	
 	<div>
-			<h3>Section Tile</h3>
+			<div class="graybar"><h4>Section Title</h4></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
 
-			<img src="http://placehold.it/750x150">
+			<img class="placeimage"src="http://placehold.it/450x125">
 
-				<ol>
+				<ol class="listitems">
 			    		<li><a><strong>Create HTML:</strong> Lorem orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</a></li>
 						<li><a><strong>Make Pretty with CSS:</strong> Lorem orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -138,27 +142,28 @@
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</a></li>
 			    		
 				</ol>
-			<p>Posted by <strong>Author</strong> under <strong>Web > Dev</strong> on <strong> January 13, 2014.</strong></p>
+			<p class="subtext">Posted by <strong>Author</strong> under <strong>Web > Dev</strong> on <strong> January 13, 2014.</strong></p>
 
 		</div>
 		<div>
-			<h2>Comments</h2>
-			<p>USER INFO</p>
+			<h3>Comments</h3>
+			<div class="graybar"><p>USER INFO</p></div>
+			
 
 			<!-- list of 3 comment boxes where text can be written -->
-			<form>
-					<div>Email <input type="text" name="Email" /></div>
+			<form class="textentry">
+					<div class="email">Email <input type="text" name="Email" /></div>
 					<div>Display Name <input type="text" name="Displayname" /></div>
 					<div>Website <input type="text" name="Website" /></div>
 			</form>
 
-			<p>COMMENT</p>
+			<div class="graybar"><p>COMMENT</p></div>
 
 			<!-- Large Comment box -->
 			<form>
-				<div><input type="test" name="COMMENT"></div> <!-- set size in css -->
+				<div class="largecomment"><input type="test" name="COMMENT"></div> <!-- set size in css -->
 
-				<button>SUBMIT</button>
+				<button class="submit">SUBMIT</button>
 			</form>
 
 
@@ -166,7 +171,7 @@
 			
 
 				
-				    <div>
+				    <div class="align">
 				    	<div class="imagealign large">
 					    	<img src="http://placehold.it/50x50">
 					    </div>
@@ -177,7 +182,8 @@
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					    </div>
 					 
-
+			    	</div>
+			    	<div class="testline">	
 
 
 							<div>
@@ -215,7 +221,7 @@
 					    </div>
 				    	<div class="textalign large">
 				    		<strong>User 2</strong>
-					    	<<time>January 13, 2014</time>
+					    	<time>January 13, 2014</time>
 					    	<p>Lorem orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					    </div>
