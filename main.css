@@ -27,7 +27,7 @@ h1, h2, h3, h4, p {
 
 .headerbox{
 	display: table;
-	background-color: forestgreen;
+	background-color: #1BC21E;
 	width: 100%;
 	height: 300px;
 	color: white;
@@ -42,21 +42,28 @@ h1, h2, h3, h4, p {
 	float: auto;
 } 
 
-
+.bottomline{
+	height: 5px;
+	background-color: darkgreen;
+}
 
 .links{
 	width: 100%;
 	height: 35px;
 	text-align: right;
 	padding-top: 15px;
-	background-color: black;
+	background-color: #1F2420;
 }
 
 .links a{
 	text-decoration: none;
 	color: white;
 	padding-right: 30px;
+}
 
+.linkline{
+	height: 5px;
+	background-color: black;
 }
 
 /*Side Box*/
@@ -65,5 +72,10 @@ h1, h2, h3, h4, p {
 	background-color: white;
 	display: block;
 }
+.sidebottom{
+	height: 5px;
+	background-color: gray;
+}
+
 
 /*Section 1*/
